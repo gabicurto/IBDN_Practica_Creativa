@@ -1,0 +1,115 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: webserver
+  labels:
+    deploy: webserver
+spec:
+  type: NodePort
+  ports:
+  - port: 5000
+    targetPort: 5001
+    nodePort: 30500
+    name: flask
+  selector:
+    deploy: webserver
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongo
+  labels:
+    deploy: mongo
+spec:
+  type: NodePort
+  ports:
+  - port: 27017
+    targetPort: 27017
+    nodePort: 30017
+    name: db
+  selector:
+    deploy: mongo
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: zookeeper
+spec:
+  type: NodePort
+  ports:
+  - port: 2181
+    targetPort: 2181
+    nodePort: 30181
+    name: zookeeper
+  selector:
+    deploy: zookeeper
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kafka
+spec:
+  type: NodePort
+  ports:
+  - port: 9092
+    targetPort: 9092
+    nodePort: 30092
+    name: kafka
+  selector:
+    deploy: kafka
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-master
+spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    targetPort: 8080
+    nodePort: 30800
+    name: spark-ui
+  selector:
+    deploy: spark-master
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-worker-1
+spec:
+  type: NodePort
+  ports:
+  - port: 8081
+    targetPort: 8081
+    nodePort: 30801
+    name: spark-worker-1
+  selector:
+    deploy: spark-worker-1
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-worker-2
+spec:
+  type: NodePort
+  ports:
+  - port: 8081
+    targetPort: 8081
+    nodePort: 30802
+    name: spark-worker-2
+  selector:
+    deploy: spark-worker-2
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-history-server
+spec:
+  type: NodePort
+  ports:
+  - port: 18081
+    targetPort: 18081
+    nodePort: 31881
+    name: spark-history
+  selector:
+    deploy: spark-history-server

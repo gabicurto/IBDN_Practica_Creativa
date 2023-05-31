@@ -1,0 +1,180 @@
+[2023-05-30 13:41:56,923] {processor.py:162} INFO - Started process (PID=134534) to work on /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 13:41:56,925] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 13:41:56,927] {logging_mixin.py:109} INFO - [2023-05-30 13:41:56,927] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 13:41:56,999] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 13:41:57,031] {logging_mixin.py:109} INFO - [2023-05-30 13:41:57,031] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 13:41:57,055] {logging_mixin.py:109} INFO - [2023-05-30 13:41:57,054] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 13:41:57,056] {logging_mixin.py:109} INFO - [2023-05-30 13:41:57,056] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 13:41:57,057] {logging_mixin.py:109} INFO - [2023-05-30 13:41:57,057] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 13:41:57,076] {logging_mixin.py:109} INFO - [2023-05-30 13:41:57,076] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 13:41:57,091] {logging_mixin.py:109} INFO - [2023-05-30 13:41:57,091] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 13:41:57,091] {logging_mixin.py:109} INFO - [2023-05-30 13:41:57,091] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 13:41:57,108] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.194 seconds
+[2023-05-30 13:42:38,676] {processor.py:162} INFO - Started process (PID=134588) to work on /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 13:42:38,681] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 13:42:38,682] {logging_mixin.py:109} INFO - [2023-05-30 13:42:38,682] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 13:42:38,759] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 13:42:38,788] {logging_mixin.py:109} INFO - [2023-05-30 13:42:38,788] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 13:42:38,813] {logging_mixin.py:109} INFO - [2023-05-30 13:42:38,813] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 13:42:38,815] {logging_mixin.py:109} INFO - [2023-05-30 13:42:38,815] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 13:42:38,815] {logging_mixin.py:109} INFO - [2023-05-30 13:42:38,815] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 13:42:38,838] {logging_mixin.py:109} INFO - [2023-05-30 13:42:38,838] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 13:42:38,851] {logging_mixin.py:109} INFO - [2023-05-30 13:42:38,851] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 13:42:38,851] {logging_mixin.py:109} INFO - [2023-05-30 13:42:38,851] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 13:42:38,872] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.206 seconds
+[2023-05-30 14:01:09,948] {processor.py:162} INFO - Started process (PID=135222) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:01:09,952] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:01:09,954] {logging_mixin.py:109} INFO - [2023-05-30 14:01:09,953] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:01:10,033] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:01:10,063] {logging_mixin.py:109} INFO - [2023-05-30 14:01:10,063] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:01:10,101] {logging_mixin.py:109} INFO - [2023-05-30 14:01:10,100] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:01:10,103] {logging_mixin.py:109} INFO - [2023-05-30 14:01:10,103] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:01:10,105] {logging_mixin.py:109} INFO - [2023-05-30 14:01:10,104] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:01:10,145] {logging_mixin.py:109} INFO - [2023-05-30 14:01:10,144] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:01:10,176] {logging_mixin.py:109} INFO - [2023-05-30 14:01:10,175] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:01:10,177] {logging_mixin.py:109} INFO - [2023-05-30 14:01:10,177] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:01:10,209] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.268 seconds
+[2023-05-30 14:02:05,171] {processor.py:162} INFO - Started process (PID=135334) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:02:05,175] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:02:05,176] {logging_mixin.py:109} INFO - [2023-05-30 14:02:05,176] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:02:05,233] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:02:05,258] {logging_mixin.py:109} INFO - [2023-05-30 14:02:05,258] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:02:05,280] {logging_mixin.py:109} INFO - [2023-05-30 14:02:05,279] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:02:05,281] {logging_mixin.py:109} INFO - [2023-05-30 14:02:05,281] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:02:05,282] {logging_mixin.py:109} INFO - [2023-05-30 14:02:05,282] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:02:05,311] {logging_mixin.py:109} INFO - [2023-05-30 14:02:05,310] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:02:05,324] {logging_mixin.py:109} INFO - [2023-05-30 14:02:05,322] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:02:05,324] {logging_mixin.py:109} INFO - [2023-05-30 14:02:05,324] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:02:05,343] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.179 seconds
+[2023-05-30 14:02:45,224] {processor.py:162} INFO - Started process (PID=135382) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:02:45,227] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:02:45,228] {logging_mixin.py:109} INFO - [2023-05-30 14:02:45,227] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:02:45,264] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:02:45,280] {logging_mixin.py:109} INFO - [2023-05-30 14:02:45,279] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:02:45,293] {logging_mixin.py:109} INFO - [2023-05-30 14:02:45,293] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:02:45,294] {logging_mixin.py:109} INFO - [2023-05-30 14:02:45,294] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:02:45,294] {logging_mixin.py:109} INFO - [2023-05-30 14:02:45,294] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:02:45,308] {logging_mixin.py:109} INFO - [2023-05-30 14:02:45,308] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:02:45,316] {logging_mixin.py:109} INFO - [2023-05-30 14:02:45,316] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:02:45,316] {logging_mixin.py:109} INFO - [2023-05-30 14:02:45,316] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:02:45,331] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.112 seconds
+[2023-05-30 14:03:30,907] {processor.py:162} INFO - Started process (PID=135465) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:03:30,913] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:03:30,917] {logging_mixin.py:109} INFO - [2023-05-30 14:03:30,917] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:03:31,047] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:03:31,070] {logging_mixin.py:109} INFO - [2023-05-30 14:03:31,070] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:03:31,089] {logging_mixin.py:109} INFO - [2023-05-30 14:03:31,089] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:03:31,091] {logging_mixin.py:109} INFO - [2023-05-30 14:03:31,091] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:03:31,091] {logging_mixin.py:109} INFO - [2023-05-30 14:03:31,091] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:03:31,110] {logging_mixin.py:109} INFO - [2023-05-30 14:03:31,110] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:03:31,120] {logging_mixin.py:109} INFO - [2023-05-30 14:03:31,120] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:03:31,120] {logging_mixin.py:109} INFO - [2023-05-30 14:03:31,120] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:03:31,153] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.255 seconds
+[2023-05-30 14:04:15,368] {processor.py:162} INFO - Started process (PID=135542) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:04:15,371] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:04:15,372] {logging_mixin.py:109} INFO - [2023-05-30 14:04:15,372] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:04:15,438] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:04:15,474] {logging_mixin.py:109} INFO - [2023-05-30 14:04:15,474] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:04:15,514] {logging_mixin.py:109} INFO - [2023-05-30 14:04:15,513] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:04:15,522] {logging_mixin.py:109} INFO - [2023-05-30 14:04:15,522] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:04:15,522] {logging_mixin.py:109} INFO - [2023-05-30 14:04:15,522] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:04:15,550] {logging_mixin.py:109} INFO - [2023-05-30 14:04:15,550] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:04:15,561] {logging_mixin.py:109} INFO - [2023-05-30 14:04:15,561] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:04:15,562] {logging_mixin.py:109} INFO - [2023-05-30 14:04:15,562] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:04:15,579] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.218 seconds
+[2023-05-30 14:05:26,707] {processor.py:162} INFO - Started process (PID=135622) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:05:26,712] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:05:26,716] {logging_mixin.py:109} INFO - [2023-05-30 14:05:26,716] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:05:26,815] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:05:26,850] {logging_mixin.py:109} INFO - [2023-05-30 14:05:26,850] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:05:26,874] {logging_mixin.py:109} INFO - [2023-05-30 14:05:26,874] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:05:26,876] {logging_mixin.py:109} INFO - [2023-05-30 14:05:26,876] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:05:26,877] {logging_mixin.py:109} INFO - [2023-05-30 14:05:26,877] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:05:26,897] {logging_mixin.py:109} INFO - [2023-05-30 14:05:26,896] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:05:26,917] {logging_mixin.py:109} INFO - [2023-05-30 14:05:26,917] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:05:26,918] {logging_mixin.py:109} INFO - [2023-05-30 14:05:26,918] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:05:26,942] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.246 seconds
+[2023-05-30 14:09:32,536] {processor.py:162} INFO - Started process (PID=135749) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:09:32,548] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:09:32,548] {logging_mixin.py:109} INFO - [2023-05-30 14:09:32,548] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:09:32,618] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:09:32,660] {logging_mixin.py:109} INFO - [2023-05-30 14:09:32,660] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:09:32,686] {logging_mixin.py:109} INFO - [2023-05-30 14:09:32,685] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:09:32,687] {logging_mixin.py:109} INFO - [2023-05-30 14:09:32,687] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:09:32,687] {logging_mixin.py:109} INFO - [2023-05-30 14:09:32,687] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:09:32,700] {logging_mixin.py:109} INFO - [2023-05-30 14:09:32,700] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:09:32,707] {logging_mixin.py:109} INFO - [2023-05-30 14:09:32,707] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:09:32,708] {logging_mixin.py:109} INFO - [2023-05-30 14:09:32,708] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:09:32,718] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.186 seconds
+[2023-05-30 14:10:28,568] {processor.py:162} INFO - Started process (PID=135828) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:10:28,578] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:10:28,580] {logging_mixin.py:109} INFO - [2023-05-30 14:10:28,579] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:10:28,642] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:10:28,670] {logging_mixin.py:109} INFO - [2023-05-30 14:10:28,670] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:10:28,694] {logging_mixin.py:109} INFO - [2023-05-30 14:10:28,694] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:10:28,696] {logging_mixin.py:109} INFO - [2023-05-30 14:10:28,696] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:10:28,697] {logging_mixin.py:109} INFO - [2023-05-30 14:10:28,697] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:10:28,715] {logging_mixin.py:109} INFO - [2023-05-30 14:10:28,715] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:10:28,727] {logging_mixin.py:109} INFO - [2023-05-30 14:10:28,727] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:10:28,728] {logging_mixin.py:109} INFO - [2023-05-30 14:10:28,728] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:10:28,744] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.185 seconds
+[2023-05-30 14:11:12,447] {processor.py:162} INFO - Started process (PID=135869) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:11:12,455] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:11:12,459] {logging_mixin.py:109} INFO - [2023-05-30 14:11:12,459] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:11:12,552] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:11:12,595] {logging_mixin.py:109} INFO - [2023-05-30 14:11:12,594] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:11:12,619] {logging_mixin.py:109} INFO - [2023-05-30 14:11:12,618] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:11:12,621] {logging_mixin.py:109} INFO - [2023-05-30 14:11:12,620] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:11:12,621] {logging_mixin.py:109} INFO - [2023-05-30 14:11:12,621] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:11:12,638] {logging_mixin.py:109} INFO - [2023-05-30 14:11:12,638] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:11:12,650] {logging_mixin.py:109} INFO - [2023-05-30 14:11:12,649] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:11:12,650] {logging_mixin.py:109} INFO - [2023-05-30 14:11:12,650] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:11:12,668] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.231 seconds
+[2023-05-30 14:26:00,808] {processor.py:162} INFO - Started process (PID=136073) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:26:00,816] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:26:00,821] {logging_mixin.py:109} INFO - [2023-05-30 14:26:00,819] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:26:00,917] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:26:00,952] {logging_mixin.py:109} INFO - [2023-05-30 14:26:00,952] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:26:00,978] {logging_mixin.py:109} INFO - [2023-05-30 14:26:00,977] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:26:00,982] {logging_mixin.py:109} INFO - [2023-05-30 14:26:00,982] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:26:00,982] {logging_mixin.py:109} INFO - [2023-05-30 14:26:00,982] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:26:00,999] {logging_mixin.py:109} INFO - [2023-05-30 14:26:00,999] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:26:01,014] {logging_mixin.py:109} INFO - [2023-05-30 14:26:01,014] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:26:01,014] {logging_mixin.py:109} INFO - [2023-05-30 14:26:01,014] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:26:01,031] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.235 seconds
+[2023-05-30 14:37:03,267] {processor.py:162} INFO - Started process (PID=136241) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:37:03,272] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:37:03,273] {logging_mixin.py:109} INFO - [2023-05-30 14:37:03,273] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:37:03,333] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:37:03,359] {logging_mixin.py:109} INFO - [2023-05-30 14:37:03,358] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:37:03,379] {logging_mixin.py:109} INFO - [2023-05-30 14:37:03,379] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:37:03,380] {logging_mixin.py:109} INFO - [2023-05-30 14:37:03,380] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:37:03,381] {logging_mixin.py:109} INFO - [2023-05-30 14:37:03,381] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:37:03,402] {logging_mixin.py:109} INFO - [2023-05-30 14:37:03,402] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:37:03,413] {logging_mixin.py:109} INFO - [2023-05-30 14:37:03,413] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:37:03,413] {logging_mixin.py:109} INFO - [2023-05-30 14:37:03,413] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:37:03,431] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.171 seconds
+[2023-05-30 14:37:39,818] {processor.py:162} INFO - Started process (PID=136271) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:37:39,820] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:37:39,821] {logging_mixin.py:109} INFO - [2023-05-30 14:37:39,821] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:37:39,857] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:37:39,876] {logging_mixin.py:109} INFO - [2023-05-30 14:37:39,876] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:37:39,889] {logging_mixin.py:109} INFO - [2023-05-30 14:37:39,889] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:37:39,890] {logging_mixin.py:109} INFO - [2023-05-30 14:37:39,890] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:37:39,891] {logging_mixin.py:109} INFO - [2023-05-30 14:37:39,891] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:37:39,909] {logging_mixin.py:109} INFO - [2023-05-30 14:37:39,909] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:37:39,917] {logging_mixin.py:109} INFO - [2023-05-30 14:37:39,917] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:37:39,917] {logging_mixin.py:109} INFO - [2023-05-30 14:37:39,917] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:37:39,934] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.121 seconds
+[2023-05-30 14:38:20,316] {processor.py:162} INFO - Started process (PID=136307) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:38:20,320] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-05-30 14:38:20,321] {logging_mixin.py:109} INFO - [2023-05-30 14:38:20,321] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:38:20,387] {processor.py:623} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-05-30 14:38:20,412] {logging_mixin.py:109} INFO - [2023-05-30 14:38:20,412] {dag.py:1834} INFO - Sync 3 DAGs
+[2023-05-30 14:38:20,434] {logging_mixin.py:109} INFO - [2023-05-30 14:38:20,434] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:38:20,436] {logging_mixin.py:109} INFO - [2023-05-30 14:38:20,436] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:38:20,436] {logging_mixin.py:109} INFO - [2023-05-30 14:38:20,436] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:38:20,453] {logging_mixin.py:109} INFO - [2023-05-30 14:38:20,453] {dag.py:1834} INFO - Sync 2 DAGs
+[2023-05-30 14:38:20,464] {logging_mixin.py:109} INFO - [2023-05-30 14:38:20,464] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None
+[2023-05-30 14:38:20,465] {logging_mixin.py:109} INFO - [2023-05-30 14:38:20,465] {dag.py:2287} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None
+[2023-05-30 14:38:20,483] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.175 seconds

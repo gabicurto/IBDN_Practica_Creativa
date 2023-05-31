@@ -1,0 +1,119 @@
+[2023-05-30 13:41:39,681] {processor.py:162} INFO - Started process (PID=134520) to work on /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 13:41:39,686] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 13:41:39,688] {logging_mixin.py:109} INFO - [2023-05-30 13:41:39,688] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 13:41:39,729] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 13:41:39,778] {logging_mixin.py:109} INFO - [2023-05-30 13:41:39,778] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 13:41:39,823] {logging_mixin.py:109} INFO - [2023-05-30 13:41:39,823] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 13:41:39,872] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.201 seconds
+[2023-05-30 13:42:21,268] {processor.py:162} INFO - Started process (PID=134572) to work on /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 13:42:21,278] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 13:42:21,280] {logging_mixin.py:109} INFO - [2023-05-30 13:42:21,280] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 13:42:21,320] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 13:42:21,365] {logging_mixin.py:109} INFO - [2023-05-30 13:42:21,365] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 13:42:21,394] {logging_mixin.py:109} INFO - [2023-05-30 13:42:21,394] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 13:42:21,448] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.191 seconds
+[2023-05-30 13:43:04,405] {processor.py:162} INFO - Started process (PID=134626) to work on /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 13:43:04,410] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 13:43:04,412] {logging_mixin.py:109} INFO - [2023-05-30 13:43:04,412] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 13:43:04,452] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 13:43:04,492] {logging_mixin.py:109} INFO - [2023-05-30 13:43:04,491] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 13:43:04,517] {logging_mixin.py:109} INFO - [2023-05-30 13:43:04,516] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 13:43:04,546] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.149 seconds
+[2023-05-30 14:00:53,197] {processor.py:162} INFO - Started process (PID=135208) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:00:53,207] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:00:53,208] {logging_mixin.py:109} INFO - [2023-05-30 14:00:53,208] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:00:53,251] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:00:53,324] {logging_mixin.py:109} INFO - [2023-05-30 14:00:53,324] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:00:53,352] {logging_mixin.py:109} INFO - [2023-05-30 14:00:53,352] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:00:53,382] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.192 seconds
+[2023-05-30 14:01:47,625] {processor.py:162} INFO - Started process (PID=135320) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:01:47,629] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:01:47,631] {logging_mixin.py:109} INFO - [2023-05-30 14:01:47,631] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:01:47,678] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:01:47,714] {logging_mixin.py:109} INFO - [2023-05-30 14:01:47,713] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:01:47,735] {logging_mixin.py:109} INFO - [2023-05-30 14:01:47,735] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:01:47,759] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.142 seconds
+[2023-05-30 14:02:29,908] {processor.py:162} INFO - Started process (PID=135363) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:02:29,913] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:02:29,914] {logging_mixin.py:109} INFO - [2023-05-30 14:02:29,914] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:02:29,945] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:02:29,977] {logging_mixin.py:109} INFO - [2023-05-30 14:02:29,977] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:02:30,004] {logging_mixin.py:109} INFO - [2023-05-30 14:02:29,999] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:02:30,030] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.128 seconds
+[2023-05-30 14:03:13,139] {processor.py:162} INFO - Started process (PID=135443) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:03:13,147] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:03:13,149] {logging_mixin.py:109} INFO - [2023-05-30 14:03:13,148] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:03:13,180] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:03:13,219] {logging_mixin.py:109} INFO - [2023-05-30 14:03:13,219] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:03:13,242] {logging_mixin.py:109} INFO - [2023-05-30 14:03:13,242] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:03:13,268] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.139 seconds
+[2023-05-30 14:03:57,964] {processor.py:162} INFO - Started process (PID=135490) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:03:57,967] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:03:57,968] {logging_mixin.py:109} INFO - [2023-05-30 14:03:57,968] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:03:58,020] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:03:58,048] {logging_mixin.py:109} INFO - [2023-05-30 14:03:58,048] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:03:58,070] {logging_mixin.py:109} INFO - [2023-05-30 14:03:58,069] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:03:58,098] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.140 seconds
+[2023-05-30 14:05:10,086] {processor.py:162} INFO - Started process (PID=135582) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:05:10,089] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:05:10,091] {logging_mixin.py:109} INFO - [2023-05-30 14:05:10,090] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:05:10,124] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:05:10,160] {logging_mixin.py:109} INFO - [2023-05-30 14:05:10,159] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:05:10,181] {logging_mixin.py:109} INFO - [2023-05-30 14:05:10,181] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:05:10,206] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.127 seconds
+[2023-05-30 14:09:17,374] {processor.py:162} INFO - Started process (PID=135716) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:09:17,378] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:09:17,379] {logging_mixin.py:109} INFO - [2023-05-30 14:09:17,379] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:09:17,411] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:09:17,446] {logging_mixin.py:109} INFO - [2023-05-30 14:09:17,446] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:09:17,467] {logging_mixin.py:109} INFO - [2023-05-30 14:09:17,466] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:09:17,489] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.122 seconds
+[2023-05-30 14:10:11,898] {processor.py:162} INFO - Started process (PID=135814) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:10:11,904] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:10:11,906] {logging_mixin.py:109} INFO - [2023-05-30 14:10:11,905] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:10:11,939] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:10:11,973] {logging_mixin.py:109} INFO - [2023-05-30 14:10:11,973] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:10:11,994] {logging_mixin.py:109} INFO - [2023-05-30 14:10:11,994] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:10:12,019] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.127 seconds
+[2023-05-30 14:10:54,969] {processor.py:162} INFO - Started process (PID=135857) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:10:54,972] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:10:54,974] {logging_mixin.py:109} INFO - [2023-05-30 14:10:54,973] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:10:55,007] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:10:55,039] {logging_mixin.py:109} INFO - [2023-05-30 14:10:55,039] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:10:55,060] {logging_mixin.py:109} INFO - [2023-05-30 14:10:55,060] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:10:55,084] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.124 seconds
+[2023-05-30 14:25:42,812] {processor.py:162} INFO - Started process (PID=136056) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:25:42,814] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:25:42,815] {logging_mixin.py:109} INFO - [2023-05-30 14:25:42,815] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:25:42,839] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:25:42,867] {logging_mixin.py:109} INFO - [2023-05-30 14:25:42,867] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:25:42,883] {logging_mixin.py:109} INFO - [2023-05-30 14:25:42,883] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:25:42,901] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.098 seconds
+[2023-05-30 14:36:47,796] {processor.py:162} INFO - Started process (PID=136229) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:36:47,801] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:36:47,802] {logging_mixin.py:109} INFO - [2023-05-30 14:36:47,802] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:36:47,833] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:36:47,865] {logging_mixin.py:109} INFO - [2023-05-30 14:36:47,864] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:36:47,889] {logging_mixin.py:109} INFO - [2023-05-30 14:36:47,888] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:36:47,920] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.131 seconds
+[2023-05-30 14:37:22,654] {processor.py:162} INFO - Started process (PID=136253) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:37:22,658] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:37:22,660] {logging_mixin.py:109} INFO - [2023-05-30 14:37:22,659] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:37:22,695] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:37:22,729] {logging_mixin.py:109} INFO - [2023-05-30 14:37:22,728] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:37:22,752] {logging_mixin.py:109} INFO - [2023-05-30 14:37:22,750] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:37:22,777] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.131 seconds
+[2023-05-30 14:38:03,833] {processor.py:162} INFO - Started process (PID=136295) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:38:03,836] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:38:03,838] {logging_mixin.py:109} INFO - [2023-05-30 14:38:03,837] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:38:03,873] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:38:03,909] {logging_mixin.py:109} INFO - [2023-05-30 14:38:03,909] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:38:03,932] {logging_mixin.py:109} INFO - [2023-05-30 14:38:03,931] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:38:03,963] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.138 seconds
+[2023-05-30 14:38:45,242] {processor.py:162} INFO - Started process (PID=136327) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:38:45,246] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2023-05-30 14:38:45,248] {logging_mixin.py:109} INFO - [2023-05-30 14:38:45,247] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:38:45,283] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py
+[2023-05-30 14:38:45,319] {logging_mixin.py:109} INFO - [2023-05-30 14:38:45,319] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:38:45,340] {logging_mixin.py:109} INFO - [2023-05-30 14:38:45,340] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2023-05-30 14:38:45,366] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/test_utils.py took 0.131 seconds

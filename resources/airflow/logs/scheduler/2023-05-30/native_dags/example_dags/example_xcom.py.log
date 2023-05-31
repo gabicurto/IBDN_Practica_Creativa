@@ -1,0 +1,119 @@
+[2023-05-30 13:41:50,758] {processor.py:162} INFO - Started process (PID=134530) to work on /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 13:41:50,761] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 13:41:50,764] {logging_mixin.py:109} INFO - [2023-05-30 13:41:50,764] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 13:41:50,807] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 13:41:50,856] {logging_mixin.py:109} INFO - [2023-05-30 13:41:50,856] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 13:41:50,887] {logging_mixin.py:109} INFO - [2023-05-30 13:41:50,887] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 13:41:50,916] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.166 seconds
+[2023-05-30 13:42:32,785] {processor.py:162} INFO - Started process (PID=134581) to work on /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 13:42:32,789] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 13:42:32,791] {logging_mixin.py:109} INFO - [2023-05-30 13:42:32,790] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 13:42:32,828] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 13:42:32,885] {logging_mixin.py:109} INFO - [2023-05-30 13:42:32,885] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 13:42:32,915] {logging_mixin.py:109} INFO - [2023-05-30 13:42:32,914] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 13:42:32,951] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.176 seconds
+[2023-05-30 13:43:16,105] {processor.py:162} INFO - Started process (PID=134635) to work on /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 13:43:16,110] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 13:43:16,113] {logging_mixin.py:109} INFO - [2023-05-30 13:43:16,111] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 13:43:16,147] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 13:43:16,213] {logging_mixin.py:109} INFO - [2023-05-30 13:43:16,212] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 13:43:16,250] {logging_mixin.py:109} INFO - [2023-05-30 13:43:16,250] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 13:43:16,304] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/flight_prediction/src/main/scala/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.207 seconds
+[2023-05-30 14:00:56,627] {processor.py:162} INFO - Started process (PID=135210) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:00:56,635] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:00:56,643] {logging_mixin.py:109} INFO - [2023-05-30 14:00:56,643] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:00:56,684] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:00:56,720] {logging_mixin.py:109} INFO - [2023-05-30 14:00:56,719] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:00:56,741] {logging_mixin.py:109} INFO - [2023-05-30 14:00:56,740] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:00:56,764] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.150 seconds
+[2023-05-30 14:01:50,733] {processor.py:162} INFO - Started process (PID=135323) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:01:50,736] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:01:50,737] {logging_mixin.py:109} INFO - [2023-05-30 14:01:50,737] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:01:50,769] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:01:50,802] {logging_mixin.py:109} INFO - [2023-05-30 14:01:50,802] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:01:50,823] {logging_mixin.py:109} INFO - [2023-05-30 14:01:50,822] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:01:50,848] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.123 seconds
+[2023-05-30 14:02:32,299] {processor.py:162} INFO - Started process (PID=135365) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:02:32,301] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:02:32,302] {logging_mixin.py:109} INFO - [2023-05-30 14:02:32,302] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:02:32,322] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:02:32,345] {logging_mixin.py:109} INFO - [2023-05-30 14:02:32,345] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:02:32,359] {logging_mixin.py:109} INFO - [2023-05-30 14:02:32,359] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:02:32,373] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.080 seconds
+[2023-05-30 14:03:15,756] {processor.py:162} INFO - Started process (PID=135445) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:03:15,759] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:03:15,761] {logging_mixin.py:109} INFO - [2023-05-30 14:03:15,761] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:03:15,796] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:03:15,833] {logging_mixin.py:109} INFO - [2023-05-30 14:03:15,833] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:03:15,856] {logging_mixin.py:109} INFO - [2023-05-30 14:03:15,856] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:03:15,894] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.145 seconds
+[2023-05-30 14:04:01,333] {processor.py:162} INFO - Started process (PID=135493) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:04:01,337] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:04:01,338] {logging_mixin.py:109} INFO - [2023-05-30 14:04:01,338] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:04:01,384] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:04:01,423] {logging_mixin.py:109} INFO - [2023-05-30 14:04:01,423] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:04:01,448] {logging_mixin.py:109} INFO - [2023-05-30 14:04:01,448] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:04:01,480] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.155 seconds
+[2023-05-30 14:05:12,432] {processor.py:162} INFO - Started process (PID=135587) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:05:12,445] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:05:12,448] {logging_mixin.py:109} INFO - [2023-05-30 14:05:12,448] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:05:12,484] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:05:12,517] {logging_mixin.py:109} INFO - [2023-05-30 14:05:12,517] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:05:12,535] {logging_mixin.py:109} INFO - [2023-05-30 14:05:12,535] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:05:12,553] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.128 seconds
+[2023-05-30 14:09:19,688] {processor.py:162} INFO - Started process (PID=135722) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:09:19,690] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:09:19,691] {logging_mixin.py:109} INFO - [2023-05-30 14:09:19,691] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:09:19,712] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:09:19,734] {logging_mixin.py:109} INFO - [2023-05-30 14:09:19,734] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:09:19,748] {logging_mixin.py:109} INFO - [2023-05-30 14:09:19,748] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:09:19,763] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.078 seconds
+[2023-05-30 14:10:15,129] {processor.py:162} INFO - Started process (PID=135817) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:10:15,133] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:10:15,139] {logging_mixin.py:109} INFO - [2023-05-30 14:10:15,135] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:10:15,196] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:10:15,248] {logging_mixin.py:109} INFO - [2023-05-30 14:10:15,247] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:10:15,271] {logging_mixin.py:109} INFO - [2023-05-30 14:10:15,270] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:10:15,301] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.181 seconds
+[2023-05-30 14:10:58,205] {processor.py:162} INFO - Started process (PID=135859) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:10:58,209] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:10:58,211] {logging_mixin.py:109} INFO - [2023-05-30 14:10:58,210] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:10:58,240] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:10:58,274] {logging_mixin.py:109} INFO - [2023-05-30 14:10:58,273] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:10:58,296] {logging_mixin.py:109} INFO - [2023-05-30 14:10:58,296] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:10:58,318] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.121 seconds
+[2023-05-30 14:25:45,957] {processor.py:162} INFO - Started process (PID=136058) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:25:45,962] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:25:45,964] {logging_mixin.py:109} INFO - [2023-05-30 14:25:45,964] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:25:46,006] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:25:46,045] {logging_mixin.py:109} INFO - [2023-05-30 14:25:46,045] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:25:46,066] {logging_mixin.py:109} INFO - [2023-05-30 14:25:46,066] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:25:46,085] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.140 seconds
+[2023-05-30 14:36:50,029] {processor.py:162} INFO - Started process (PID=136231) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:36:50,033] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:36:50,035] {logging_mixin.py:109} INFO - [2023-05-30 14:36:50,035] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:36:50,073] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:36:50,108] {logging_mixin.py:109} INFO - [2023-05-30 14:36:50,108] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:36:50,130] {logging_mixin.py:109} INFO - [2023-05-30 14:36:50,130] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:36:50,163] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.141 seconds
+[2023-05-30 14:37:25,883] {processor.py:162} INFO - Started process (PID=136255) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:37:25,887] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:37:25,888] {logging_mixin.py:109} INFO - [2023-05-30 14:37:25,888] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:37:25,927] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:37:25,963] {logging_mixin.py:109} INFO - [2023-05-30 14:37:25,963] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:37:25,986] {logging_mixin.py:109} INFO - [2023-05-30 14:37:25,985] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:37:26,014] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.141 seconds
+[2023-05-30 14:38:06,695] {processor.py:162} INFO - Started process (PID=136297) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:38:06,700] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:38:06,701] {logging_mixin.py:109} INFO - [2023-05-30 14:38:06,701] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:38:06,739] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:38:06,772] {logging_mixin.py:109} INFO - [2023-05-30 14:38:06,772] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:38:06,794] {logging_mixin.py:109} INFO - [2023-05-30 14:38:06,794] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:38:06,823] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.136 seconds
+[2023-05-30 14:38:48,562] {processor.py:162} INFO - Started process (PID=136329) to work on /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:38:48,566] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-05-30 14:38:48,568] {logging_mixin.py:109} INFO - [2023-05-30 14:38:48,567] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:38:48,600] {processor.py:623} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-05-30 14:38:48,634] {logging_mixin.py:109} INFO - [2023-05-30 14:38:48,634] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:38:48,656] {logging_mixin.py:109} INFO - [2023-05-30 14:38:48,655] {dag.py:2287} INFO - Setting next_dagrun for example_xcom to 2023-05-28 00:00:00+00:00
+[2023-05-30 14:38:48,686] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/env/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.132 seconds

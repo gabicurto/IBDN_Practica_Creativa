@@ -1,0 +1,77 @@
+[2023-05-30 13:41:36,157] {processor.py:162} INFO - Started process (PID=134516) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 13:41:36,160] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 13:41:36,161] {logging_mixin.py:109} INFO - [2023-05-30 13:41:36,161] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 13:41:36,248] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 13:41:37,271] {logging_mixin.py:109} INFO - [2023-05-30 13:41:37,271] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 13:41:37,288] {logging_mixin.py:109} INFO - [2023-05-30 13:41:37,287] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 13:41:37,317] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 1.170 seconds
+[2023-05-30 13:42:18,911] {processor.py:162} INFO - Started process (PID=134569) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 13:42:18,917] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 13:42:18,919] {logging_mixin.py:109} INFO - [2023-05-30 13:42:18,919] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 13:42:18,955] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 13:42:18,990] {logging_mixin.py:109} INFO - [2023-05-30 13:42:18,990] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 13:42:19,012] {logging_mixin.py:109} INFO - [2023-05-30 13:42:19,012] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 13:42:19,031] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 0.128 seconds
+[2023-05-30 13:43:01,884] {processor.py:162} INFO - Started process (PID=134624) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 13:43:01,891] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 13:43:01,893] {logging_mixin.py:109} INFO - [2023-05-30 13:43:01,893] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 13:43:01,957] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 13:43:01,997] {logging_mixin.py:109} INFO - [2023-05-30 13:43:01,997] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 13:43:02,026] {logging_mixin.py:109} INFO - [2023-05-30 13:43:02,026] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 13:43:02,048] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 0.175 seconds
+[2023-05-30 14:01:31,514] {processor.py:162} INFO - Started process (PID=135270) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:01:31,518] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 14:01:31,519] {logging_mixin.py:109} INFO - [2023-05-30 14:01:31,519] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:01:31,565] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:01:32,182] {logging_mixin.py:109} INFO - [2023-05-30 14:01:32,182] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:01:32,197] {logging_mixin.py:109} INFO - [2023-05-30 14:01:32,197] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 14:01:32,222] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 0.717 seconds
+[2023-05-30 14:02:25,807] {processor.py:162} INFO - Started process (PID=135356) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:02:25,810] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 14:02:25,812] {logging_mixin.py:109} INFO - [2023-05-30 14:02:25,811] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:02:25,841] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:02:25,867] {logging_mixin.py:109} INFO - [2023-05-30 14:02:25,867] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:02:25,884] {logging_mixin.py:109} INFO - [2023-05-30 14:02:25,884] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 14:02:25,899] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 0.098 seconds
+[2023-05-30 14:03:07,971] {processor.py:162} INFO - Started process (PID=135439) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:03:07,976] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 14:03:07,977] {logging_mixin.py:109} INFO - [2023-05-30 14:03:07,977] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:03:08,014] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:03:08,047] {logging_mixin.py:109} INFO - [2023-05-30 14:03:08,047] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:03:08,063] {logging_mixin.py:109} INFO - [2023-05-30 14:03:08,063] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 14:03:08,076] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 0.109 seconds
+[2023-05-30 14:03:53,990] {processor.py:162} INFO - Started process (PID=135487) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:03:53,995] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 14:03:53,996] {logging_mixin.py:109} INFO - [2023-05-30 14:03:53,996] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:03:54,031] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:03:54,064] {logging_mixin.py:109} INFO - [2023-05-30 14:03:54,063] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:03:54,087] {logging_mixin.py:109} INFO - [2023-05-30 14:03:54,087] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 14:03:54,137] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 0.155 seconds
+[2023-05-30 14:09:54,710] {processor.py:162} INFO - Started process (PID=135766) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:09:54,713] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 14:09:54,715] {logging_mixin.py:109} INFO - [2023-05-30 14:09:54,715] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:09:54,758] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:09:55,402] {logging_mixin.py:109} INFO - [2023-05-30 14:09:55,402] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:09:55,415] {logging_mixin.py:109} INFO - [2023-05-30 14:09:55,415] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 14:09:55,440] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 0.738 seconds
+[2023-05-30 14:10:50,522] {processor.py:162} INFO - Started process (PID=135854) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:10:50,530] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 14:10:50,531] {logging_mixin.py:109} INFO - [2023-05-30 14:10:50,531] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:10:50,570] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:10:50,605] {logging_mixin.py:109} INFO - [2023-05-30 14:10:50,605] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:10:50,624] {logging_mixin.py:109} INFO - [2023-05-30 14:10:50,624] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 14:10:50,651] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 0.142 seconds
+[2023-05-30 14:38:00,695] {processor.py:162} INFO - Started process (PID=136292) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:38:00,697] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 14:38:00,698] {logging_mixin.py:109} INFO - [2023-05-30 14:38:00,698] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:38:00,725] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:38:00,746] {logging_mixin.py:109} INFO - [2023-05-30 14:38:00,746] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:38:00,760] {logging_mixin.py:109} INFO - [2023-05-30 14:38:00,760] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 14:38:00,781] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 0.091 seconds
+[2023-05-30 14:38:41,241] {processor.py:162} INFO - Started process (PID=136324) to work on /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:38:41,245] {processor.py:613} INFO - Processing file /home/lucia/practica_creativa/resources/airflow/dags/setup.py for tasks to queue
+[2023-05-30 14:38:41,246] {logging_mixin.py:109} INFO - [2023-05-30 14:38:41,246] {dagbag.py:496} INFO - Filling up the DagBag from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:38:41,289] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/lucia/practica_creativa/resources/airflow/dags/setup.py
+[2023-05-30 14:38:41,329] {logging_mixin.py:109} INFO - [2023-05-30 14:38:41,329] {dag.py:1834} INFO - Sync 1 DAGs
+[2023-05-30 14:38:41,364] {logging_mixin.py:109} INFO - [2023-05-30 14:38:41,364] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2023-05-30 14:38:41,387] {processor.py:170} INFO - Processing /home/lucia/practica_creativa/resources/airflow/dags/setup.py took 0.154 seconds

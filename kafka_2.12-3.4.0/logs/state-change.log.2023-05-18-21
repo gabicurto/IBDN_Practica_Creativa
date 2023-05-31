@@ -1,0 +1,7 @@
+[2023-05-18 21:02:05,948] INFO [Controller id=0 epoch=2] Sending UpdateMetadata request to brokers Set(0) for 0 partitions (state.change.logger)
+[2023-05-18 21:02:05,994] INFO [Controller id=0 epoch=2] Sending LeaderAndIsr request to broker 0 with 1 become-leader and 0 become-follower partitions (state.change.logger)
+[2023-05-18 21:02:05,995] INFO [Controller id=0 epoch=2] Sending UpdateMetadata request to brokers Set(0) for 1 partitions (state.change.logger)
+[2023-05-18 21:02:06,016] INFO [Broker id=0] Handling LeaderAndIsr request correlationId 1 from controller 0 for 1 partitions (state.change.logger)
+[2023-05-18 21:02:06,061] INFO [Broker id=0] Ignoring LeaderAndIsr request from controller 0 with correlation id 1 epoch 2 for partition flight_delay_classification_request-0 since its associated leader epoch 0 matches the current leader epoch (state.change.logger)
+[2023-05-18 21:02:06,084] INFO [Broker id=0] Finished LeaderAndIsr request in 70ms correlationId 1 from controller 0 for 1 partitions (state.change.logger)
+[2023-05-18 21:02:06,123] INFO [Broker id=0] Add 1 partitions and deleted 0 partitions from metadata cache in response to UpdateMetadata request sent by controller 0 epoch 2 with correlation id 2 (state.change.logger)

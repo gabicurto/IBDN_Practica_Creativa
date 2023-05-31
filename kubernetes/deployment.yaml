@@ -1,0 +1,278 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: zookeeper
+  labels:
+    deploy: zookeeper
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      deploy: zookeeper
+  template:
+    metadata:
+      labels:
+        deploy: zookeeper
+    spec:
+      containers:
+        - name: zookeeper
+          image: bitnami/zookeeper:3.8.1
+          ports:
+            - containerPort: 2181
+          env:
+            - name: ZOOKEEPER_CLIENT_PORT
+              value: "2181"
+            - name: ZOOKEEPER_TICK_TIME
+              value: "2000"
+            - name: ZOOKEEPER_SYNC_LIMIT
+              value: "2"
+            - name: ALLOW_ANONYMOUS_LOGIN
+              value: "yes"
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka
+  labels:
+    deploy: kafka
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      deploy: kafka
+  template:
+    metadata:
+      labels:
+        deploy: kafka
+    spec:
+      containers:
+        - name: kafka
+          image: bitnami/kafka:3.1.2
+          ports:
+            - containerPort: 9092
+          env:
+            - name: KAFKA_BROKER_ID
+              value: "1"
+            - name: KAFKA_CFG_LISTENERS
+              value: "PLAINTEXT://kafka:9092"
+            - name: KAFKA_CFG_ADVERTISED_LISTENERS
+              value: "PLAINTEXT://kafka:9092"
+            - name: KAFKA_CFG_ZOOKEEPER_CONNECT
+              value: "zookeeper:2181"
+            - name: ALLOW_PLAINTEXT_LISTENER
+              value: "yes"
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongo
+  labels:
+    deploy: mongo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      deploy: mongo
+  template:
+    metadata:
+      labels:
+        deploy: mongo
+    spec:
+      containers:
+        - name: mongo
+          image: mongo:latest
+          ports:
+            - containerPort: 27017
+          command:
+            - /bin/bash
+            - -c
+            - |
+              apt-get update && \
+              apt-get upgrade -y && \
+              apt install -y nano && \
+              apt-get install -y curl && \
+              apt-get install git -y && \
+              git clone https://github.com/Big-Data-ETSIT/practica_creativa && \
+              cd /practica_creativa && \
+              ./resources/download_data.sh && \
+              sed -i 's/mongo /mongosh /g' /practica_creativa/resources/import_distances.sh && \
+              chmod +x /practica_creativa/resources/import_distances.sh && \
+              mongod --bind_ip_all & ./resources/import_distances.sh & sleep 1234567
+
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-master
+  labels:
+    deploy: spark-master
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      deploy: spark-master
+  template:
+    metadata:
+      labels:
+        deploy: spark-master
+    spec:
+      containers:
+        - name: spark-master
+          image: bde2020/spark-master:3.3.0-hadoop3.3
+          ports:
+            - containerPort: 8080
+            - containerPort: 7077
+          env:
+            - name: SPARK_HOME
+              value: "/spark"
+            - name: PROJECT_HOME
+              value: "/home/lucia/practica_creativa"
+          volumeMounts:
+            - name: spark-volume
+              mountPath: /home/lucia/practica_creativa
+      volumes:
+        - name: spark-volume
+          hostPath:
+            path: "/path/to/host/spark-master"
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-worker-1
+  labels:
+    deploy: spark-worker-1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      deploy: spark-worker-1
+  template:
+    metadata:
+      labels:
+        deploy: spark-worker-1
+    spec:
+      containers:
+        - name: spark-worker-1
+          image: bde2020/spark-worker:3.3.0-hadoop3.3
+          ports:
+            - containerPort: 8081
+          env:
+            - name: SPARK_MASTER_URL
+              value: "spark://spark-master:7077"
+            - name: SPARK_HOME
+              value: "/spark"
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-worker-2
+  labels:
+    deploy: spark-worker-2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      deploy: spark-worker-2
+  template:
+    metadata:
+      labels:
+        deploy: spark-worker-2
+    spec:
+      containers:
+        - name: spark-worker-2
+          image: bde2020/spark-worker:3.3.0-hadoop3.3
+          ports:
+            - containerPort: 8082
+          env:
+            - name: SPARK_MASTER_URL
+              value: "spark://spark-master:7077"
+            - name: SPARK_HOME
+              value: "/spark"
+
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: webserver
+  labels:
+    deploy: webserver
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      deploy: webserver
+  template:
+    metadata:
+      labels:
+        deploy: webserver
+    spec:
+      containers:
+        - name: webserver
+          image: python:3.7
+          ports:
+            - containerPort: 5001
+          workingDir: /practica_creativa
+          command:
+            - /bin/bash
+            - -c
+            - |
+              apt-get update && \
+              apt-get upgrade -y && \
+              apt install -y nano && \
+              apt-get install git -y && \
+              git clone https://github.com/Big-Data-ETSIT/practica_creativa && \
+              mv practica_creativa/* . && \
+              pip3 install -r requirements.txt && \
+              sed -i 's/localhost/kafka/g' /practica_creativa/resources/web/predict_flask.py && \
+              sed -i 's+MongoClient()+MongoClient(host="mongo",port=27017)+g' /practica_creativa/resources/web/predict_flask.py && \
+              chmod +x /practica_creativa/resources/web/predict_flask.py && \
+              cd /practica_creativa/resources/web && \
+              python3 predict_flask.py
+
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-history-server
+  labels:
+    deploy: spark-history-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      deploy: spark-history-server
+  template:
+    metadata:
+      labels:
+        deploy: spark-history-server
+    spec:
+      containers:
+        - name: spark-history-server
+          image: bde2020/spark-history-server:3.3.0-hadoop3.3
+          ports:
+            - containerPort: 18080
+          env:
+            - name: SPARK_EVENTLOG_ENABLED
+              value: "true"
+            - name: SPARK_HISTORY_OPTS
+              value: "-Dspark.history.fs.logDirectory=/tmp/spark-events"
+          volumeMounts:
+            - name: spark-logs
+              mountPath: /tmp/spark-events
+      volumes:
+        - name: spark-logs
+          emptyDir: {}
