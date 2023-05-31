@@ -233,17 +233,6 @@ En resumen, Airflow ofrece una arquitectura compuesta por un orquestador, un eje
 
 *TODO: analyzing the setup.py: what happens if the task fails?, what is the peridocity of the task?*
 Este código representa la configuración de un DAG en Airflow para entrenar un modelo de predicción en lotes. Aquí está la explicación de los comentarios en un lenguaje más simple:
-
-Las propiedades iniciales, como el número de intentos, la fecha de inicio y el retraso entre reintentos, se definen en el diccionario default_args. Estas propiedades indican cómo debe comportarse el DAG en caso de errores o fallos.
-
-Se crea un objeto DAG llamado training_dag con un nombre y las propiedades definidas anteriormente. El parámetro schedule_interval se establece en None, lo que significa que este DAG no se ejecutará automáticamente según un horario predefinido.
-
-Se definen dos comandos de Bash que se utilizarán en las tareas de PySpark. Estos comandos invocarán Spark y ejecutarán archivos de PySpark para realizar tareas específicas.
-
-Se crea un operador de Bash llamado train_classifier_model_operator que ejecutará el comando de Bash correspondiente al entrenamiento y persistencia del modelo de clasificación. Se le asignan parámetros como el maestro de Spark, el archivo de entrenamiento y la ruta base del proyecto.
-
-Se establece una dependencia entre las tareas de extracción de características (comentada en el código) y el entrenamiento del modelo de clasificación. Esto significa que el entrenamiento del modelo se realizará solo después de que se haya completado la extracción de características.
-
 ```
 import sys, os, re
 
@@ -313,15 +302,15 @@ train_classifier_model_operator = BashOperator(
 # The model training depends on the feature extraction
 #train_classifier_model_operator.set_upstream(extract_features_operator)
 ```
+1. Las propiedades iniciales, como el número de intentos, la fecha de inicio y el retraso entre reintentos, se definen en el diccionario default_args. Estas propiedades indican cómo debe comportarse el DAG en caso de errores o fallos.
 
+2. Se crea un objeto DAG llamado training_dag con un nombre y las propiedades definidas anteriormente. El parámetro schedule_interval se establece en None, lo que significa que este DAG no se ejecutará automáticamente según un horario predefinido.
 
+3. Se definen dos comandos de Bash que se utilizarán en las tareas de PySpark. Estos comandos invocarán Spark y ejecutarán archivos de PySpark para realizar tareas específicas.
 
+3. Se crea un operador de Bash llamado train_classifier_model_operator que ejecutará el comando de Bash correspondiente al entrenamiento y persistencia del modelo de clasificación. Se le asignan parámetros como el maestro de Spark, el archivo de entrenamiento y la ruta base del proyecto.
 
-
-
-
-
-
+4. Se establece una dependencia entre las tareas de extracción de características (comentada en el código) y el entrenamiento del modelo de clasificación. Esto significa que el entrenamiento del modelo se realizará solo después de que se haya completado la extracción de características.
 
 
 
