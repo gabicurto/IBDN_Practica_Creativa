@@ -210,6 +210,119 @@ airflow scheduler
 
 ![image](https://github.com/gabicurto/Practica_creativa_IBDN/assets/127130231/4205ecc5-321b-4530-9a85-f3d5e8338b74)
 
+*TODO: explain the architecture of apache airflow (see the official documentation of Apache Airflow).*
+Airflow es una plataforma diseñada para la creación y ejecución de flujos de trabajo. Un flujo de trabajo se representa como un DAG (gráfico acíclico dirigido) y contiene tareas individuales que se organizan teniendo en cuenta las dependencias y los flujos de datos.
+
+En un DAG se especifican las dependencias entre tareas, el orden en el que deben ejecutarse y la cantidad de intentos posibles. Las tareas en sí describen las acciones a realizar, como obtener datos, ejecutar análisis, interactuar con otros sistemas, entre otras.
+
+La arquitectura de Airflow consta de varios componentes principales, según la documentación de Apache Airflow:
+
+Orquestador (Scheduler): Se encarga de activar los flujos de trabajo programados y enviar tareas al ejecutor para su ejecución. En la configuración predeterminada de Airflow, el scheduler ejecuta todas las tareas internamente, pero en entornos de producción, la mayoría de los ejecutores envían las tareas a los workers para su ejecución.
+
+Ejecutor: Gestiona la ejecución de las tareas. En la instalación por defecto de Airflow, esto ocurre dentro del scheduler, pero en entornos de producción, los ejecutores envían las tareas a los workers para su ejecución efectiva.
+
+Servidor web: Proporciona una interfaz de usuario que permite inspeccionar, activar y depurar el comportamiento de los DAG y las tareas. A través del servidor web, los usuarios pueden interactuar con Airflow y realizar acciones sobre los flujos de trabajo.
+
+Carpeta de archivos DAG: Contiene los archivos DAG, que son leídos por el orquestador, el ejecutor y cualquier worker que tenga el ejecutor. Estos archivos definen la estructura y la lógica de los flujos de trabajo.
+
+Base de metadatos: Utilizada por el orquestador, el ejecutor y el servidor web para almacenar el estado de los flujos de trabajo y las tareas. La base de metadatos registra información relevante sobre la ejecución de los DAG, como el estado actual, los tiempos de inicio y finalización, y los resultados obtenidos.
+
+En resumen, Airflow ofrece una arquitectura compuesta por un orquestador, un ejecutor, un servidor web, una carpeta de archivos DAG y una base de metadatos para crear y gestionar eficientemente flujos de trabajo.
+![image](https://github.com/gabicurto/IBDN_Practica_Creativa/assets/127130231/4589ad0e-50fb-411b-a1d0-bce31b9add90)
+
+
+*TODO: analyzing the setup.py: what happens if the task fails?, what is the peridocity of the task?*
+Este código representa la configuración de un DAG en Airflow para entrenar un modelo de predicción en lotes. Aquí está la explicación de los comentarios en un lenguaje más simple:
+
+Las propiedades iniciales, como el número de intentos, la fecha de inicio y el retraso entre reintentos, se definen en el diccionario default_args. Estas propiedades indican cómo debe comportarse el DAG en caso de errores o fallos.
+
+Se crea un objeto DAG llamado training_dag con un nombre y las propiedades definidas anteriormente. El parámetro schedule_interval se establece en None, lo que significa que este DAG no se ejecutará automáticamente según un horario predefinido.
+
+Se definen dos comandos de Bash que se utilizarán en las tareas de PySpark. Estos comandos invocarán Spark y ejecutarán archivos de PySpark para realizar tareas específicas.
+
+Se crea un operador de Bash llamado train_classifier_model_operator que ejecutará el comando de Bash correspondiente al entrenamiento y persistencia del modelo de clasificación. Se le asignan parámetros como el maestro de Spark, el archivo de entrenamiento y la ruta base del proyecto.
+
+Se establece una dependencia entre las tareas de extracción de características (comentada en el código) y el entrenamiento del modelo de clasificación. Esto significa que el entrenamiento del modelo se realizará solo después de que se haya completado la extracción de características.
+
+```
+import sys, os, re
+
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+
+from datetime import datetime, timedelta
+import iso8601
+
+PROJECT_HOME = os.getenv("PROJECT_HOME")
+
+
+default_args = {
+  'owner': 'airflow',
+  'depends_on_past': False,
+  'start_date': iso8601.parse_date("2016-12-01"),
+  'retries': 3,
+  'retry_delay': timedelta(minutes=5),
+}
+
+training_dag = DAG(
+  'agile_data_science_batch_prediction_model_training',
+  default_args=default_args,
+  schedule_interval=None
+)
+
+# We use the same two commands for all our PySpark tasks
+pyspark_bash_command = """
+spark-submit --master {{ params.master }} \
+  {{ params.base_path }}/{{ params.filename }} \
+  {{ params.base_path }}
+"""
+pyspark_date_bash_command = """
+spark-submit --master {{ params.master }} \
+  {{ params.base_path }}/{{ params.filename }} \
+  {{ ts }} {{ params.base_path }}
+"""
+
+
+# Gather the training data for our classifier
+"""
+extract_features_operator = BashOperator(
+  task_id = "pyspark_extract_features",
+  bash_command = pyspark_bash_command,
+  params = {
+    "master": "local[8]",
+    "filename": "resources/extract_features.py",
+    "base_path": "{}/".format(PROJECT_HOME)
+  },
+  dag=training_dag
+)
+
+"""
+
+# Train and persist the classifier model
+train_classifier_model_operator = BashOperator(
+  task_id = "pyspark_train_classifier_model",
+  bash_command = pyspark_bash_command,
+  params = {
+    "master": "local[8]",
+    "filename": "resources/train_spark_mllib_model.py",
+    "base_path": "{}/".format(PROJECT_HOME)
+  },
+  dag=training_dag
+)
+
+# The model training depends on the feature extraction
+#train_classifier_model_operator.set_upstream(extract_features_operator)
+```
+
+
+
+
+
+
+
+
+
+
 
 
 # Dockerizar cada uno de los servicios que componen la arquitectura completa y desplegar el escenario completo usando docker-compose
@@ -326,18 +439,29 @@ Podemos visualizar que se han creado mirando nuestro panel de información de mi
 
 
 #  Modificar el código para que el resultado de la predicción se escriba en Kafka y se presente en la aplicación 
-En este apartado lo que haremos será modificar el fichero de predicción MakePrediction.scala para que envíe las predicciones a Kafka en lugar de a Mongo, para ello necesitamos modificar el fichero añadiendo una condición para que lo envíe a Kafka en lugar de a Mongo, que será referenciado a su vez en el fichero docker-compose.
-La modificación se ve de la siguiente manera
+En este apartado lo que haremos será modificar el fichero de predicción MakePrediction.scala para que envíe las predicciones a Kafka en lugar de a Mongo, para ello necesitamos modificar el fichero añadiendo el siguiente código:
 
-![image](https://github.com/gabicurto/Practica_creativa_IBDN/assets/127130231/4bf61f4a-7dc9-4baf-9ba9-c8e08e4dea9d)
+- Se configura la conexión a Kafka y se define un KafkaProducer para escribir mensajes en un tema específico.
+- La configuración de conexión se realiza mediante la especificación de los servidores de arranque de Kafka y el topic al que se desea enviar los mensajes. En este caso, se utiliza localhost:9092 como dirección del servidor de Kafka y "flight_delay_classification_response" como nombre del topic.
+- A continuación, se define un ForeachWriter personalizado llamado kafkaWriter. Esta clase implementa tres funciones principales: open(), process(), y close().
+- En la función open(), se configuran las propiedades del KafkaProducer, como los servidores de arranque, el serializador de clave y el serializador de valor. Luego, se crea una instancia de KafkaProducer utilizando estas propiedades.
+- La función process() se llama para cada fila en el flujo de datos. Se extrae el valor de la columna "Prediction" como un Double y el valor de la columna "UUID" como una cadena. Luego, se construye un JSON con estos valores y se crea un nuevo ProducerRecord con el tema, la clave (UUID) y el JSON como valor. Finalmente, se envía el registro al productor de Kafka.
+- En la función close(), se cierra el KafkaProducer para liberar los recursos adecuadamente.
+Basicamente, se configura y utiliza un KafkaProducer para enviar registros JSON al tema "flight_delay_classification_response" en el servidor de Kafka especificado. Cada registro contiene un UUID y una predicción asociada.
 
-También tenemos que modificar el fichero 'predict_flask.py' para que de nuevo, el servidor web extraiga la información de Kafka en lugar de Mongo, también se referenciará en el fichero docker-compose mediante una variable de entorno.
+El código en MakePrediction.scala quedaría de la siguiente manera
+![image](https://github.com/gabicurto/IBDN_Practica_Creativa/assets/127130231/407be4e3-4451-42c1-bd26-5f95d7a3e482)
 
-![image](https://github.com/gabicurto/Practica_creativa_IBDN/assets/127130231/e1d61ed0-fc3f-46bb-8e7a-9645507bba20)
 
-Y el fichero docker-compose por lo tanto quedaría de la siguiente manera.
+Comprobamos que se realiza la predicción correctamente visitando el servidor web.
+![image](https://github.com/gabicurto/IBDN_Practica_Creativa/assets/127130231/9404b5ef-1d2c-4930-b2f6-f356f50fb51a)
 
-![image](https://github.com/gabicurto/Practica_creativa_IBDN/assets/127130231/29ed82d1-e025-4666-9f25-d65c8c67c1ac)
+
+Y consultamos el consumidor de Kafka con el topic "..response"
+![image](https://github.com/gabicurto/IBDN_Practica_Creativa/assets/127130231/b03a798f-9670-4314-92f1-548b0d01d8e1)
+
+
+
 
 
 
