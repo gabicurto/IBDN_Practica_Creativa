@@ -430,13 +430,13 @@ Podemos visualizar que se han creado mirando nuestro panel de información de mi
 #  Modificar el código para que el resultado de la predicción se escriba en Kafka y se presente en la aplicación 
 En este apartado lo que haremos será modificar el fichero de predicción MakePrediction.scala para que envíe las predicciones a Kafka en lugar de a Mongo, para ello necesitamos modificar el fichero añadiendo el siguiente código:
 
-- Se configura la conexión a Kafka y se define un KafkaProducer para escribir mensajes en un tema específico.
+- Se configura la conexión a Kafka y se define un KafkaProducer para escribir mensajes en un topic específico.
 - La configuración de conexión se realiza mediante la especificación de los servidores de arranque de Kafka y el topic al que se desea enviar los mensajes. En este caso, se utiliza localhost:9092 como dirección del servidor de Kafka y "flight_delay_classification_response" como nombre del topic.
 - A continuación, se define un ForeachWriter personalizado llamado kafkaWriter. Esta clase implementa tres funciones principales: open(), process(), y close().
 - En la función open(), se configuran las propiedades del KafkaProducer, como los servidores de arranque, el serializador de clave y el serializador de valor. Luego, se crea una instancia de KafkaProducer utilizando estas propiedades.
 - La función process() se llama para cada fila en el flujo de datos. Se extrae el valor de la columna "Prediction" como un Double y el valor de la columna "UUID" como una cadena. Luego, se construye un JSON con estos valores y se crea un nuevo ProducerRecord con el tema, la clave (UUID) y el JSON como valor. Finalmente, se envía el registro al productor de Kafka.
 - En la función close(), se cierra el KafkaProducer para liberar los recursos adecuadamente.
-Basicamente, se configura y utiliza un KafkaProducer para enviar registros JSON al tema "flight_delay_classification_response" en el servidor de Kafka especificado. Cada registro contiene un UUID y una predicción asociada.
+Basicamente, se configura y utiliza un KafkaProducer para enviar registros JSON al topic "flight_delay_classification_response" en el servidor de Kafka especificado. Cada registro contiene un UUID y una predicción asociada.
 
 El código en MakePrediction.scala quedaría de la siguiente manera
 ![image](https://github.com/gabicurto/IBDN_Practica_Creativa/assets/127130231/407be4e3-4451-42c1-bd26-5f95d7a3e482)
